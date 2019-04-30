@@ -1,0 +1,26 @@
+#Create canvas: Good
+C 20 4
+#Horiztonal line: Good
+L 1 2 6 2
+#Vertical line: Good
+L 6 3 6 4
+#Rectangle: Good
+R 16 1 20 3
+#Backfill: Good
+B 10 3 o
+#Backfill - too far right: Bad
+B 25 3 o
+Backfill - too far left: Bad
+B -5 3 o
+#Backfill - too far up: Bad
+B 10 -5 o
+#Backfill - too many arguments: Bad
+B 10 5 o 3
+#Backfill - too few arguments: Bad
+B 10 5
+#Backfill - invalid character: Bad
+B a 5
+#Backfill: Good
+B 3 3 o
+#Backfill: Good
+B 17 2 o

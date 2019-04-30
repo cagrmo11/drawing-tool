@@ -1,0 +1,37 @@
+#Create canvas: Good
+C 20 4
+#Horiztonal line: Good
+L 1 2 6 2
+#Vertical line: Good
+L 6 3 6 4
+#Horiztonal line on top line: Bad
+L 0 0 3 0
+#Horiztonal line on bottom line: Bad
+L 0 5 3 5
+#Horiztonal line starts on left edge: Bad
+L 0 2 3 2
+#Horiztonal line ends on right edge: Bad
+L 10 2 21 2
+#Vertical line on canvas on left edge : Bad
+L 0 0 0 3
+#Vertical line on canvas on right edge : Bad
+L 21 0 21 3
+#Vertical line starts on top edge : Bad
+L 7 0 7 3
+#Vertical line ends on bottom edge : Bad
+L 7 3 7 5
+#Does not support diagonals : Bad
+L 3 2 6 1
+#Line - Wrong number of arguments - too few : Bad
+L 3 2 6
+#Line - Wrong number of arguments - too many : Bad
+L 3 2 6 5 7
+#Line - Character in command list: Bad
+L a 3 18 3
+#Vertical line: Good
+L 10 2 10 4
+#Horiztonal line: Good
+L 15 3 18 3
+
+#Horiztonal line with space above: Bad
+L 10 3 14 3

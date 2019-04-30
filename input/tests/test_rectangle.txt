@@ -1,0 +1,30 @@
+#Create canvas: Good
+C 20 4
+#Rectangle: Good
+R 16 1 20 3
+#Rectangle - top is on top edge: Bad
+R 16 0 20 3
+#Rectangle - top is over top edge: Bad
+R 1 -1 8 4
+#Rectangle - bottom is on bottom edge: Bad
+R 16 1 20 5
+#Rectangle - bottom is over bottom edge: Bad
+R 16 1 20 7
+#Rectangle - right edge is on right edge: Bad
+R 16 1 21 4
+#Rectangle - right edge is over right edge: Bad
+R 16 1 25 4
+#Rectangle - left edge is on left edge: Bad
+R 0 0 8 4
+#Rectangle - left edge is over left edge: Bad
+R -5 0 8 4
+#Rectangle - not enough arguments: Bad
+R 5 0 8
+#Rectangle - too many arguments: Bad
+R 5 0 8 4 7
+#Rectangle - Character in command list: Bad
+R a 1 15 3
+#Square: Good
+R 13 1 15 3
+
+#Rectangle - Tall: Good
