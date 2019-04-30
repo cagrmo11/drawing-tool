@@ -4,7 +4,7 @@ A simple drawing program with input and output text files
 # Brief Overview and Context
 This program can be used to explore how Cait might approach different programming challenges.
 
-#Command List supported in this version
+# Command List supported in this version
 
 ```
 Command 		Description
@@ -17,7 +17,7 @@ B x y c         Fill the entire area connected to (x,y) with "colour" c.
                 Same as that of the "bucket fill" tool in paint programs.
 ``` 
 
-#Examples
+# Examples
 ```
 C 20 4
 ----------------------
@@ -59,7 +59,7 @@ B 10 3 o
 |     xoooooooooooo|
 --------------------
 ```
-#Installation
+# Installation
 
 Uses Python 3: Must have Python downloaded https://www.python.org/downloads/
 
@@ -72,13 +72,13 @@ pip install numpy.testing
 
 To learn more about how to work with pip: https://packaging.python.org/tutorials/installing-packages/
 
-#To Run
+# To Run
 
 Navigate into script directory
 Execute from command-line: python draw.py
 Check output folder for drawing and check terminal output for any messages.
 
-#Tests
+# Tests
 
 To run unit tests: python -m unittest tests
 To test different pre-made inputs: Get files in /inputs/tests folder
